@@ -1,0 +1,12 @@
+# API 키가 든 파일은 절대 올리지 않도록 막아 둡니다.
+.streamlit/secrets.toml
+.streamlit/
+
+# 실행 환경
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# 개인 메모
+*.local
